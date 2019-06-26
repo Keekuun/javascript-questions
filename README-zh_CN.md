@@ -1286,3 +1286,26 @@ string 类型是可迭代的。扩展运算符将迭代的每个字符映射成�
 
 </p>
 </details>
+
+###### 44. 输出是什么？
+
+```javascript
+1<2<3;
+3>2>1;
+```
+
+- A: true,true
+- B: true,false
+- C: false,true
+- D: false,false
+
+<details><summary><b>答案</b></summary>
+<p>
+
+#### 答案: B
+
+分步来看，1<2 是 true,true或者false在和数字作比较时，ture -> 1,false -> 0,所以 true<3 即 1<3 是 true;
+3>2 是 true, true>1 即 1>1 false;
+
+</p>
+</details>
